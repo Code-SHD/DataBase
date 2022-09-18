@@ -30,10 +30,3 @@ class DataBase():
     def delete(self, num):
         del self.key[num]
         del self.value[num]
-        
-DB = DataBase()
-DB.add("a", 10)
-DB.add("b", 20)
-DB.add("c", 30)
-
-print(DB.return_key_and_value(3))
